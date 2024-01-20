@@ -1,3 +1,21 @@
 site_name: My Docs
+site_url: https://frank7493.github.io/
+repo_url: https://github.com/Frank7493/Frank7493.github.io
+edit_uri: edit/main/docs/
 theme:
   name: material
+  features:
+    - content.action.edit
+  palette: 
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: white
+    accent: blue
+    toggle:
+      icon: material/brightness-7 
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: blue
+    toggle:
+      icon: material/brightness-4
